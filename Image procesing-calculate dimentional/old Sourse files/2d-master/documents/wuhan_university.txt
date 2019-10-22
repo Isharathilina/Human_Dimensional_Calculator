@@ -1,0 +1,15 @@
+Wuhan university - automation extract human body
+Canny edge detection operator [8] and Freeman’s 8-connected [6] chain codes are used to represent the silhouette curves
+
+the camera is positioned at 5m distance from the subjects and 1m height from the ground and four images are captured
+
+Silhouette Detection and Contour Representation
+- Take a picture without people (background picture)
+- Take a picture with people
+- Get the differences between background and forground.
+
+- Apply the Freeman's 8-connected to get the body silhouettes. Collect points in front and side image (71 points in all body parts)
+
+The problems:
+- We don't hav features points spec, we need to get it by practising.
+

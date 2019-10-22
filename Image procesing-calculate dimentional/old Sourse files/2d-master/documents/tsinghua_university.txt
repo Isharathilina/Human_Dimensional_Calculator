@@ -1,0 +1,13 @@
+TsingHua university - constructing 3D human model from images
+
+Main steps: 
+- Silhouette detection - like wuhan paper
+- Feature extraction - like wuhan paper
+
+- Body dimension measurement: 
+  + Calculate the body measurement by compute distance between special points.
+  + They have the 3D human model database to compare and re correct the shape
+
+- 3D human model construction: They used the commercial software 3D MAXTM and its software development
+kit (SDK) MaxscriptTM to build the 3D human model.
+
